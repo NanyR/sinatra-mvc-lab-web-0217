@@ -5,10 +5,9 @@
     <title>title</title>
   </head>
   <body>
-    <h1>Pig Latinizer!</h1>
-    <form method="POST" action='/piglatinize'>
-      <p>Enter your phrase:
-      <input type="text" name="user_phrase"> </p>
+    <h1>Pig Latinizer</h1>
+    <form method="POST" action='/'>
+      <input type="text" name="string">
     </form>
     <button type="submit" value="submit"> Submit </button>
   </body>
